@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  text-align: center;
+}
+
+.navbar .menu a {
+  color: blueviolet;
+  text-decoration: none;
+  margin-inline: 8px;
+}
+
+.heading {
+  margin-bottom: 5px;
+}
+
+.about-me h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.about-me p {
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+
+.section h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.section p {
+  margin-left: 20px;
+}
+
+.aim,
+.aim-para {
+  text-align: center;
+}
